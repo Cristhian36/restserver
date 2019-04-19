@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
 
-//=================
+//==================
 // Verificar Token
-//=================
+//==================
 let verificarToken = (req, res, next) => {
 
     let token = req.get('token');
